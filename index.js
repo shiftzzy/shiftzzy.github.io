@@ -5,7 +5,7 @@ let title = document.getElementById("title")
 
 bodyPage.addEventListener("load", bodyOnLoad)
 
-function bodyOnLoad() {
+let bodyOnLoad = function() {
     para.innerText = "Shifty Home"
     title.innerText = "Shifty Website"
 }
