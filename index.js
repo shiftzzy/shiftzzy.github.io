@@ -1,3 +1,3 @@
 function loginButton_OnClick() {
-    location.replace = "./views/login"
+    window.location = "./views/login"
 }
